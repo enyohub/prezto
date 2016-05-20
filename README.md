@@ -115,3 +115,15 @@ SOFTWARE.
 [6]: http://gitref.org
 [7]: http://www.bash2zsh.com/zsh_refcard/refcard.pdf
 [8]: http://grml.org/zsh/zsh-lovers.html
+
+
+
+Install Powerline Font
+-------
+
+brew tap sanemat/font
+brew reinstall --powerline --vim-powerline ricty
+# 導入時は 3.2.4 でした
+cp -f /usr/local/Cellar/ricty/3.2.4/share/fonts/Ricty*.ttf ~/Library/Fonts/
+fc-cache -vf
+
