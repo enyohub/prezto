@@ -122,7 +122,10 @@ Install Powerline Font
 -------
 
 brew tap sanemat/font 
+
 brew reinstall --powerline --vim-powerline ricty 
+
 cp -f /usr/local/Cellar/ricty/3.2.4/share/fonts/Ricty*.ttf ~/Library/Fonts/ 
+
 fc-cache -vf 
 
